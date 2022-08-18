@@ -18,7 +18,9 @@ The generalized least squares (GLS) estimator of the coefficients of a linear re
 --------------------------------------------------------------------------------------------------------------
 
 More information on:
+
 https://towardsdatascience.com/ols-linear-regression-gauss-markov-blue-and-understanding-the-math-453d7cc630a5
+
 https://towardsdatascience.com/generalized-least-squares-gls-mathematical-derivations-intuition-2b7466832c2c
 
 --------------------------------------------------------------------------------------------------------------
@@ -26,11 +28,17 @@ https://towardsdatascience.com/generalized-least-squares-gls-mathematical-deriva
 #### References:
 
 [1] https://en.wikipedia.org/wiki/Least_squares
+
 [2] https://www.investopedia.com/terms/l/least-squares-method.asp#:~:text=Least%20Squares%20Regression%20Line,points%20to%20the%20regression%20line.
+
 [3] https://www.mathsisfun.com/data/least-squares-regression.html
+
 [4] https://en.wikipedia.org/wiki/Generalized_least_squares
+
 [5] https://www.statlect.com/fundamentals-of-statistics/generalized-least-squares
 
 Cods are adapted from:
+
 https://www.statsmodels.org/dev/examples/notebooks/generated/ols.html
+
 https://www.statsmodels.org/dev/examples/notebooks/generated/gls.html
