@@ -7,7 +7,8 @@ The method of least squares is a standard approach in regression analysis to app
 If the data shows a linear relationship between two variables, the line that best fits this linear relationship is known as a least-squares regression line, which minimizes the vertical distance from the data points to the regression line. The term “least squares” is used because it is the smallest sum of squares of errors, which is also called the "variance" [2].
 
 Note: Least squares regression is sensitive to outliers [3].
-Note: In order to find the optimal parameters (coefficients) of a linear regression model, one can use an iterative numerical technique like Gradient Descent or Newton-Raphson to obtain estimates of the parameters, too. These methods should provide the same results as the OLS (which arrives at the equation ((X'X)^-1)X'Y to obtain the coefficients).
+
+#### Note: In order to find the optimal parameters (coefficients) of a linear regression model, one can use an iterative numerical technique like Gradient Descent or Newton-Raphson to obtain estimates of the parameters, too. These methods should provide the same results as the OLS (which arrives at the equation ((X'X)^-1)X'Y to obtain the coefficients).
 
 ## 2) Generalized least squares (GLS) Regression
 
