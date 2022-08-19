@@ -2,9 +2,11 @@
 
 ## 1) Linear (ordinary) Least Squares (OLS) Regression 
 
-The method of least squares is a standard approach in regression analysis to approximate the solution of a system (to model the system) by minimizing the sum of the squares of the residuals (a residual being the difference between an observed value and the fitted value provided by a model). The most important application is in data fitting [1].
+The method of least squares is a standard approach in regression analysis to approximate the solution of a system (to model the system) by minimizing the sum of the squares of the residuals (SSR) (a residual being the difference between an observed value and the fitted value provided by a model). The most important application is in data fitting [1].
 
 If the data shows a linear relationship between two variables, the line that best fits this linear relationship is known as a least-squares regression line, which minimizes the vertical distance from the data points to the regression line. The term “least squares” is used because it is the smallest sum of squares of errors, which is also called the "variance" [2].
+
+There are a set of mathematical restrictions for the OLS estimator to be BLUE (Best Linear Unbiased Estimator) and result in unbiased estimator with minimal sampling variance. That is the errors (residuals) should be uncorrelated, have the same variance, and have an expectation (E) of 0. 
 
 Note: Least squares regression is sensitive to outliers [3].
 
