@@ -18,6 +18,8 @@ Generalized least squares is a technique for estimating the unknown parameters i
 
 The generalized least squares (GLS) estimator of the coefficients of a linear regression is a generalization of the ordinary least squares (OLS) estimator. It is used to deal with situations in which the OLS estimator is not BLUE (best linear unbiased estimator) because one of the main assumptions of the Gauss-Markov theorem, namely that of homoskedasticity (the errors of the regression all have the same variance) and absence of serial correlation (their covariances are all equal to zero), is violated. In such situations, provided that the other assumptions of the Gauss-Markov theorem are satisfied, the GLS estimator is BLUE [5].
 
+So, in this case, we make a transformation and create a new set of observations so that the above mathematical assumptions are satisfied. Then, we can develope OLS with the transformed data. This is called GLS. The optimal coefficients can be calculated as (X'(V^-1)X)^-1 * X'(V^-1)Y where V is a known n * n matrix obtained based on the variance of the residuals.
+
 --------------------------------------------------------------------------------------------------------------
 
 More information on:
